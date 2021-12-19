@@ -210,7 +210,11 @@ function fakeBin(x){
   function fakeBin(x) {
     return x.split('').map(n => n < 5 ? 0 : 1).join('');
 }
-
+//toUppercase
+function makeUpperCase(str) {
+  // Code here
+  return str.toUpperCase()
+}
 //Arrays
 //Map
 function maps(x){
@@ -247,11 +251,31 @@ return arrayOfSheep.filter((sheep) => {
 }).length
 }
 // Other
+//Conditionals
+function rentalCarCost(d) {
+  // Your solution here
+  if(d >= 7){
+    return (d * 40) - 50
+  }else if (d >= 3){
+    return (d * 40) - 20
+  }else {
+    return d * 40
+  }
+}
 //Math Methods
 function litres(time) {
   return Math.floor(time * .5);
 }
+//Min and max
+var min = function(list){
+    
+  return Math.min(...list);
+}
 
+var max = function(list){
+  
+  return Math.max(...list)
+}
 //calling prebuilt functions
 function doTurn () {
   // Functions called
