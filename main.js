@@ -216,6 +216,13 @@ function makeUpperCase(str) {
   return str.toUpperCase()
 }
 //Arrays
+//Reduce
+function grow(x){
+  return x.reduce((accumulator, currentValue) => {  
+    return accumulator * currentValue;
+  });
+  }
+
 //Map
 function maps(x){
   return x.map(num => {
