@@ -222,7 +222,15 @@ function grow(x){
     return accumulator * currentValue;
   });
   }
-
+  function betterThanAverage(classPoints, yourPoints) {
+    // Your code he
+    return classPoints.reduce((accumulator, currentValue) => {
+      return accumulator + currentValue
+    })/classPoints.length < yourPoints
+  }
+  function betterThanAverage(classPoints, yourPoints) {
+    return yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length; 
+  }
 //Map
 function maps(x){
   return x.map(num => {
