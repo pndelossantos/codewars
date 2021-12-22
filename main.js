@@ -152,7 +152,14 @@ function squareSum(arr) {
 //square sum
 }
 
-// Sheep Counting
+function simpleMultiplication(number) {
+  // your code........
+if(number % 2 === 0){
+  return number * 8
+}else {
+  return number * 9
+}
+}
 
 //Basic Mathematical Calculations
 function basicOp(operation, value1, value2){
