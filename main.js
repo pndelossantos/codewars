@@ -53,6 +53,10 @@ function exponent(a,b){
 function subt(a,b){
   return a-b
 }
+function hero(bullets, dragons){
+  //Get Coding!
+   return bullets >= dragons * 2 
+  }
 //Name shuffler
 
 function nameShuffler(str){
