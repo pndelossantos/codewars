@@ -243,6 +243,11 @@ function greet (name, owner) {
 function greet (name, owner) {
   return name === owner ? 'Hello boss' :  'Hello guest';
 }
+//distance function
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  // TODO
+  return (distanceToPump <= mpg*fuelLeft)
+};
 //Arrays
 //Reduce
 function grow(x){
