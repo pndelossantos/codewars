@@ -371,3 +371,7 @@ function doTurn () {
   buyHealth()
   printStatus()
 }
+//RegEx
+function removeExclamationMarks(s) {
+  return s.replace(/!/g, '');
+}
