@@ -213,6 +213,12 @@ function isDivisible(n, x, y) {
     // i will be an integer. Double it and return it.
     return i * 2;
   }
+//template literal with special chara
+function bonusTime(salary, bonus) {
+  // your code here
+    const finalPay = bonus ? salary * 10 : salary
+    return `\u00A3${finalPay}`
+  }
 //converting a string
 function fakeBin(x){
   return x.split('').map((digit) =>{
