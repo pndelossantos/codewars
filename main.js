@@ -209,6 +209,7 @@ function isDivisible(n, x, y) {
     return false
   }
   }
+
   function doubleInteger(i) {
     // i will be an integer. Double it and return it.
     return i * 2;
@@ -244,6 +245,16 @@ function greet (name, owner) {
   return  `Hello boss`  
   }else{
     return `Hello guest`
+  }
+}
+function paperwork(n, m) {
+  return n > 0 && m > 0 ? n * m : 0
+}
+function paperwork(n, m) {
+  if(n <= 0 || m <= 0){
+    return 0
+  }else{
+    return n*m
   }
 }
 function greet (name, owner) {
@@ -380,4 +391,17 @@ function doTurn () {
 //RegEx
 function removeExclamationMarks(s) {
   return s.replace(/!/g, '');
+}
+//Loops
+var countSheep = function (num){
+  //your code here
+let sheep = ''
+  if(num <= 0){
+    return ''
+  }else{
+    for(i = 1; i <= num; i++)
+    sheep += `${i} sheep...`
+    return sheep
+  }
+    
 }
