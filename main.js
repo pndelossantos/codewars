@@ -265,6 +265,18 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   // TODO
   return (distanceToPump <= mpg*fuelLeft)
 };
+//basic maths
+const areaOrPerimeter = function(l , w) {
+  // Return your answer
+  if(l === w){
+    return l * w
+  }else{
+    return l * 2 + w * 2
+  }
+};
+const areaOrPerimeter = function(l , w) {
+  return l == w ? l*w : 2*(l + w)
+};
 //Arrays
 //Reduce
 function grow(x){
