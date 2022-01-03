@@ -277,6 +277,9 @@ const areaOrPerimeter = function(l , w) {
 const areaOrPerimeter = function(l , w) {
   return l == w ? l*w : 2*(l + w)
 };
+function otherAngle(a, b) {
+  return 180 - (a + b);
+}
 //Arrays
 //Reduce
 function grow(x){
