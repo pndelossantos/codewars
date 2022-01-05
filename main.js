@@ -379,6 +379,21 @@ function bmi(weight, height) {
     return "Obese"
   }
 }
+function getGrade (s1, s2, s3) {
+  // Code here
+  let grade = (s1 + s2 + s3)/3
+  if(grade >= 90){
+    return 'A'
+  }else if(grade >= 80 && grade < 90){
+    return 'B'
+  }else if(grade >= 70 && grade < 80){
+    return 'C'
+  }else if(grade >= 60 && grade < 70){
+    return 'D'
+  }else{
+    return 'F'
+  }
+}
 //Math Methods
 function litres(time) {
   return Math.floor(time * .5);
