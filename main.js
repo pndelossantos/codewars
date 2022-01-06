@@ -273,7 +273,15 @@ const areaOrPerimeter = function(l , w) {
   }else{
     return l * 2 + w * 2
   }
-};
+}function goals (a, b, c) {
+  // code goes here
+  return (a + b + c)
+}
+var laLigaGoals = 43
+var championsLeagueGoals =10
+var copaDelReyGoals = 5
+
+var totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals
 const areaOrPerimeter = function(l , w) {
   return l == w ? l*w : 2*(l + w)
 };
