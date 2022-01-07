@@ -238,6 +238,11 @@ function makeUpperCase(str) {
   // Code here
   return str.toUpperCase()
 }
+//type validation
+function typeValidation(variable, type) {
+  // Your code should be here ;
+  return typeof variable == type
+}
 //Ternary/conditionals
 function greet (name, owner) {
   // Add code here
