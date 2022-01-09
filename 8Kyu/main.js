@@ -335,6 +335,9 @@ function rainAmount(mm){
 //Arrays
 //Reduce
 function grow(x){
+  function checkAlive(health) {
+    return health > 0;
+  }
   return x.reduce((accumulator, currentValue) => {  
     return accumulator * currentValue;
   });
