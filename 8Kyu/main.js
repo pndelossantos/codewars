@@ -332,6 +332,9 @@ function rainAmount(mm){
        return "Your plant has had more than enough water for today!"
   };
 }
+function main (verb, noun){
+  return `${verb}${noun}`
+}
 //Arrays
 //Reduce
 function grow(x){
