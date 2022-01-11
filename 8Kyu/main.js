@@ -335,6 +335,10 @@ function rainAmount(mm){
 function main (verb, noun){
   return `${verb}${noun}`
 }
+var findAverage = function (nums) {
+  // Code here
+  return nums.reduce((acc, c)=> acc+c)/nums.length
+}
 //Arrays
 //Reduce
 function grow(x){
