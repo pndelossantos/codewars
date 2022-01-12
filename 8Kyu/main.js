@@ -342,6 +342,10 @@ var findAverage = function (nums) {
 function orderOperations () {
   return (2 + 2) * (2 + 2) * 2
 }
+var a = "dev"
+var b = "Lab"
+
+var name = `${a}${b}`
 //Arrays
 //Reduce
 function grow(x){
