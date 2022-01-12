@@ -339,6 +339,9 @@ var findAverage = function (nums) {
   // Code here
   return nums.reduce((acc, c)=> acc+c)/nums.length
 }
+function orderOperations () {
+  return (2 + 2) * (2 + 2) * 2
+}
 //Arrays
 //Reduce
 function grow(x){
