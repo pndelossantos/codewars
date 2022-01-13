@@ -346,6 +346,9 @@ var a = "dev"
 var b = "Lab"
 
 var name = `${a}${b}`
+function addFive(num) {
+  return num + 5
+ }
 //Arrays
 //Reduce
 function grow(x){
