@@ -349,6 +349,18 @@ var name = `${a}${b}`
 function addFive(num) {
   return num + 5
  }
+ var health = 100
+var position = 0
+var coins = 0
+
+function main () {
+  rollDice()
+  move()
+  combat()
+  getCoins()
+  buyHealth()
+  printStatus()
+}
 //Arrays
 //Reduce
 function grow(x){
