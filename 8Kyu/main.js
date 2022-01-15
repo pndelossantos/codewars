@@ -323,6 +323,13 @@ function problem(x){
 function otherAngle(a, b) {
   return 180 - (a + b);
 }
+//Ternary
+function chromosomeCheck(sperm) {
+  return sperm.split('').includes("Y")? "Congratulations! You're going to have a son." : "Congratulations! You're going to have a daughter."
+}
+function chromosomeCheck(sperm) {
+  return `Congratulations! You're going to have a ${sperm === 'XY' ? 'son' : 'daughter'}.`
+}
 //refer to the example and write your first JS function
 function helloWorld(){
   var str = "Hello World!"
