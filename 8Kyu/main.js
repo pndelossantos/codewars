@@ -12,6 +12,9 @@ function areYouPlayingBanjo(name) {
    return `${name} does not play banjo` 
   }
 }
+function sayHello( name, city, state ) {
+  return `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`
+}
 // Abbreviate using .map
 
 function abbrevName(name){
@@ -24,6 +27,51 @@ function DNAtoRNA(dna) {
   // create a function which returns an RNA sequence from the given DNA sequence
   return dna.replace(/T/g, "U")
 }
+
+function calculateTip(amount, rating) {
+  2
+  switch (rating.toLowerCase()){
+  3
+      case 'terrible':
+  4
+        return 0;
+  5
+        break;
+  6
+      case 'poor':
+  7
+        return Math.ceil(amount * .05);
+  8
+        break;
+  9
+      case 'good':
+  10
+        return Math.ceil(amount * .10);
+  11
+        break;
+  12
+      case 'great':
+  13
+        return Math.ceil(amount * .15);
+  14
+        break;
+  15
+      case 'excellent':
+  16
+        return Math.ceil(amount * .20);
+  17
+        break;
+  18
+      default:
+  19
+        return "Rating not recognised";
+  20
+        break;
+  21
+  }
+  22
+  }
+   Correc
 //summation
 var summation = function (num) {
   // Code here
@@ -322,6 +370,11 @@ function problem(x){
 }
 function otherAngle(a, b) {
   return 180 - (a + b);
+}
+//Filter
+function multipleOfIndex(array) {
+  // good luck
+  return array.filter((e, i) => e % i == 0)
 }
 //Ternary
 function chromosomeCheck(sperm) {
