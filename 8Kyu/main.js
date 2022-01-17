@@ -71,7 +71,27 @@ function calculateTip(amount, rating) {
   }
   22
   }
-   Correc
+  function grader(score) {
+    if(score > 1 || score < 0.6){
+      return "F"
+    }else if( score >= 0.9){
+      return "A"
+    }else if(score >= 0.8){
+      return "B"
+    }else if(score >= 0.7){
+      return "C"
+    }else{
+      return "D"
+    }
+    
+  }
+  function check(a,x){
+    return a.includes(x)
+  };
+  function sumMix(x){
+    return x.reduce((acc, c) => acc + Number(c), 0)
+  
+  }
 //summation
 var summation = function (num) {
   // Code here
