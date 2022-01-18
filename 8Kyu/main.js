@@ -85,6 +85,10 @@ function calculateTip(amount, rating) {
     }
     
   }
+  function removeEveryOther(arr){
+    //your code here
+    return arr.filter((e, i) => i % 2 == 0 )
+  }
   function check(a,x){
     return a.includes(x)
   };
