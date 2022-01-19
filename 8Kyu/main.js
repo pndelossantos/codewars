@@ -71,6 +71,9 @@ function calculateTip(amount, rating) {
   }
   22
   }
+  function past(h, m, s){
+    return ((h*3600)+(m*60)+s)*1000;
+  }
   function grader(score) {
     if(score > 1 || score < 0.6){
       return "F"
