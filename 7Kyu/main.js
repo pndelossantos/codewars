@@ -8,3 +8,7 @@ function filterLongWords(sentence, n) {
     //Solution here
     return sentence.split(" ").filter((e) => e.length > n)
   }
+  function filterEvenLengthWords(words) {
+    // your code here
+    return words.filter(e => e.length % 2 === 0)
+  }
