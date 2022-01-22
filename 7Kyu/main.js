@@ -12,3 +12,8 @@ function filterLongWords(sentence, n) {
     // your code here
     return words.filter(e => e.length % 2 === 0)
   }
+  function multiplyAndFilter(array, multiplier){
+    return array.filter((e) => typeof e == "number").map((x) => x * multiplier)
+    // your code
+  }
+  
