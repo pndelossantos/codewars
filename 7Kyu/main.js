@@ -14,6 +14,7 @@ function filterLongWords(sentence, n) {
   }
   function multiplyAndFilter(array, multiplier){
     return array.filter((e) => typeof e == "number").map((x) => x * multiplier)
-    // your code
+    function toNumberArray(string){
+  return string.map((x) => Number(x))
+} your code
   }
-  
