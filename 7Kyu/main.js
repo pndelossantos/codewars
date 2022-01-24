@@ -18,3 +18,6 @@ function filterLongWords(sentence, n) {
   return string.map((x) => Number(x))
 } your code
   }
+  function sumEvenNumbers(input) {
+    return input.filter((x) => x % 2 === 0).reduce((acc,c ) => acc + c,0)
+    }
