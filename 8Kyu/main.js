@@ -701,6 +701,10 @@ function remainder(n, m){
   return n > m ? n % m : m % n
   
 }
+function toFreud(string) {
+  return string.split(' ').filter(x => x !== '').map(x => 'sex').join(' ');
+    }
+  
 
 
 
