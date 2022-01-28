@@ -705,6 +705,11 @@ function remainder(n, m){
   return n > m ? n % m : m % n
   
 }
+//To lower case 
+function mouthSize(animal) {
+  // code here
+  return animal.toLowerCase() === 'alligator' ? "small" : "wide"
+}
 function toFreud(string) {
   return string.split(' ').filter(x => x !== '').map(x => 'sex').join(' ');
     }
