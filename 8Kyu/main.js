@@ -704,7 +704,10 @@ function remainder(n, m){
 function toFreud(string) {
   return string.split(' ').filter(x => x !== '').map(x => 'sex').join(' ');
     }
-  
+    function plural(n) {
+      return n < 1 || n > 1
+      // ...
+    }
 
 
 
