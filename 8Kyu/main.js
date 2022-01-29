@@ -710,6 +710,17 @@ function mouthSize(animal) {
   // code here
   return animal.toLowerCase() === 'alligator' ? "small" : "wide"
 }
+//filter and .length
+function well(x){
+  const isGood = x.filter(e => e === 'good')
+  if (isGood.length > 2){
+    return "I smell a series!"
+  }else if(isGood.length <= 2 && isGood.length > 0){
+    return "Publish!"
+  }else{
+    return "Fail!"
+  }
+}
 function toFreud(string) {
   return string.split(' ').filter(x => x !== '').map(x => 'sex').join(' ');
     }
