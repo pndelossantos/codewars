@@ -721,6 +721,11 @@ function well(x){
     return "Fail!"
   }
 }
+//type coercion
+function add(a, b){
+	// code here
+  return a == b
+}
 function toFreud(string) {
   return string.split(' ').filter(x => x !== '').map(x => 'sex').join(' ');
     }
