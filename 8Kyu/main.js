@@ -751,6 +751,10 @@ function switchItUp(number){
           break;
     }
   }
+  function unusualFive() {
+    let cats = ["Agnes", "Vicious", "Mouse", "BM", "Ash"]
+      return cats.length
+    }
 function toFreud(string) {
   return string.split(' ').filter(x => x !== '').map(x => 'sex').join(' ');
     }
