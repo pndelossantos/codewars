@@ -755,6 +755,10 @@ function switchItUp(number){
     let cats = ["Agnes", "Vicious", "Mouse", "BM", "Ash"]
       return cats.length
     }
+    function power(x,y){
+      //SHOW ME WHAT YOU GOT!
+      return x**y
+    }
 function toFreud(string) {
   return string.split(' ').filter(x => x !== '').map(x => 'sex').join(' ');
     }
