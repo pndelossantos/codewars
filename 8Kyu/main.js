@@ -113,6 +113,13 @@ function calculateTip(amount, rating) {
     return Math.floor(s * 27.7778)
     //Good Luck!
   }
+  const reverseSeq = n => {
+    const sequence = [];
+    for(let i=n; i > 0; i--){
+      sequence.push(i)
+    }
+    return sequence
+  };
   function removeEveryOther(arr){
     //your code here
     return arr.filter((e, i) => i % 2 == 0 )
