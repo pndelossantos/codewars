@@ -120,6 +120,14 @@ function calculateTip(amount, rating) {
     }
     return sequence
   };
+  function monkeyCount(n) {
+    // your code here
+      let monkey = []
+      for(let i=1; i <= n; i++){
+        monkey.push(i)
+      }
+      return monkey
+    }
   function removeEveryOther(arr){
     //your code here
     return arr.filter((e, i) => i % 2 == 0 )
