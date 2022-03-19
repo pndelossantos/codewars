@@ -184,6 +184,10 @@ function defineSuit(card) {
 function multiTable(number) {
   return [1,2,3,4,5,6,7,8,9,10].map(item => `${item} * ${number} = ${item*number}`).join('\n');
   }
+//"mutating" strings
+function capitalizeWord(word) {
+  return word.replace(word.charAt(0), word.charAt(0).toUpperCase())
+  }
  //Bope
  function magNumber(info){
 
