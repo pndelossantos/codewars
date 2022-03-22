@@ -149,6 +149,15 @@ function warnTheSheep(queue) {
        )}! You are about to be eaten by a wolf!`;
    }
  }
+ //Expressions
+ return Math.max(
+  a + b + c,
+  a * b * c,
+  a * (b + c),
+  (a + b) * c,
+  a + b * c,
+  a * b + c,
+);
 
  //Bope
  function magNumber(info){
