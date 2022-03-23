@@ -149,6 +149,20 @@ function warnTheSheep(queue) {
        )}! You are about to be eaten by a wolf!`;
    }
  }
+
+ //Bope
+ function magNumber(info){
+
+  const weapons = {
+    PT92: 17,
+    M4A1: 30,
+    M16A2: 30,
+    PSG1: 5
+  }
+  return Math.ceil(info[1] * 3 /  weapons[info[0]]);
+
+  
+}
  //flipping boxes aka sorting arrays
  const flip = (d, a) => {
   return d === 'R' ? a.sort((a, b) => a - b) : a.sort((a, b) => b - a)
