@@ -152,7 +152,11 @@ const elevator = (left, right, call) => Math.abs(call-left) < Math.abs(call-righ
 function points(games) {
   return games.reduce((acc, c) => acc + (c[0] > c[2] ? 3 : c[0] == c[2] ? 1 : 0), 0)
 }
-
+//Distance between pillars
+function pillars(num_pill, dist, width) {
+  // your code here
+  return num_pill === 1  ? 0 : ((num_pill-2)*width) + ((100*dist)*(num_pill-1)) 
+}
 //Quardratic equation
 function quadratic(x1, x2) {
   return [1, -(x2 + x1), x1 * x2];
