@@ -148,6 +148,10 @@ function elevator(left, right, call){
   }
 }
 const elevator = (left, right, call) => Math.abs(call-left) < Math.abs(call-right) ? 'left' : 'right'
+//Total points
+function points(games) {
+  return games.reduce((acc, c) => acc + (c[0] > c[2] ? 3 : c[0] == c[2] ? 1 : 0), 0)
+}
 
 //Quardratic equation
 function quadratic(x1, x2) {
