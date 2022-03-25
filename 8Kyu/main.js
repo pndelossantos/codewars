@@ -136,6 +136,19 @@ function warnTheSheep(queue) {
  const flip = (d, a) => {
   return d === 'R' ? a.sort((a, b) => a - b) : a.sort((a, b) => b - a)
 }
+//Distance from eleveator
+function elevator(left, right, call){
+  // code on!
+  let distLeft = Math.abs(call - left);
+  let distRight = Math.abs(call - right);
+  if (distLeft >= distRight){
+    return "right"
+}else if (distLeft < distRight){
+    return "left"
+  }
+}
+const elevator = (left, right, call) => Math.abs(call-left) < Math.abs(call-right) ? 'left' : 'right'
+
 //Quardratic equation
 function quadratic(x1, x2) {
   return [1, -(x2 + x1), x1 * x2];
