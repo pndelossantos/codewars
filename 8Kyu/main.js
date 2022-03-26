@@ -136,7 +136,10 @@ function warnTheSheep(queue) {
  const flip = (d, a) => {
   return d === 'R' ? a.sort((a, b) => a - b) : a.sort((a, b) => b - a)
 }
-
+//Quardratic equation
+function quadratic(x1, x2) {
+  return [1, -(x2 + x1), x1 * x2];
+}
  function warnTheSheep(queue) {
   const position = queue.reverse().indexOf('wolf');
   return position === 0 ? 'Pls go away and stop eating my sheep' : `Oi! Sheep number ${ position }! You are about to be eaten by a wolf!`;
