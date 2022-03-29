@@ -132,6 +132,10 @@ function warnTheSheep(queue) {
        )}! You are about to be eaten by a wolf!`;
    }
  }
+ //flipping boxes aka sorting arrays
+ const flip = (d, a) => {
+  return d === 'R' ? a.sort((a, b) => a - b) : a.sort((a, b) => b - a)
+}
 
  function warnTheSheep(queue) {
   const position = queue.reverse().indexOf('wolf');
