@@ -6,3 +6,10 @@
 function repeatStr (n, s) {
     return s.repeat(n);
   }
+
+// Sum of Positives
+function positiveSum(arr) {
+  let newArr = arr.filter(num => num > 0)
+  return newArr.reduce((a, b)=>a+b);
+}  
+  
