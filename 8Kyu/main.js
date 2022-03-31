@@ -128,6 +128,14 @@ function calculateTip(amount, rating) {
       }
       return monkey
     }
+    function countBy(x, n) {
+      let z = [];
+      for(let i = x; z.length<n; i+=x){
+        z.push(i)
+      }
+    
+      return z;
+    }
   function removeEveryOther(arr){
     //your code here
     return arr.filter((e, i) => i % 2 == 0 )
