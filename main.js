@@ -20,3 +20,7 @@ function squareSum(arr) {
 
 //square sum
 }
+
+// Sheep Counting
+
+// Other
