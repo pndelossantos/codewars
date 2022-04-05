@@ -23,6 +23,17 @@ function squareSum(arr) {
 
 // Sheep Counting
 
+// Is n divisivle by x and y?
+function isDivisible(n, x, y) {
+  if (n % x === 0 && n % y === 0){
+    return true
+  } else if (n % x !== 0 && n % y === 0){
+    return false
+  }else {
+    return false
+  }
+  }
+
 // Rock, Paper, Scissors
 const rps = (p1, p2) => {
   if(p1 === p2){
