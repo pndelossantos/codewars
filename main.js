@@ -13,6 +13,13 @@ function positiveSum(arr) {
   return newArr.reduce((a, b)=>a+b);
 }  
 
+//Multiply two numbers
+function multiply(a,b){
+  return a*b
+}
+
+let multiply = (a, b) => a * b;
+
 // Square Sum
 // take in an array
 function squareSum(arr) {
