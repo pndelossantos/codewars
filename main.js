@@ -8,10 +8,15 @@ function repeatStr (n, s) {
   }
 
 // Sum of Positives
-function positiveSum(arr) {
-  let newArr = arr.filter(num => num > 0)
-  return newArr.reduce((a, b)=>a+b);
+function positiveSum(arr){
+  let newArr = arr.filter(num=>num > 0)
+  return newArr.reduce((acc,c)=>acc+c,0)
+  
 }  
+
+function positiveSum(arr){
+  return arr.filter(num=>num > 0).reduce((acc, c)=>acc+c,0)
+}
 
 //Multiply two numbers
 function multiply(a,b){
