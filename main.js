@@ -35,6 +35,35 @@ function squareSum(arr) {
 
 // Sheep Counting
 
+//Basic Mathematical Calculations
+function basicOp(operation, value1, value2){
+  // Code
+  if(operation === "+"){
+     return value1 + value2
+     }else if(operation === "-"){
+     return value1 - value2         
+     }else if(operation === "*"){
+     return value1 * value2         
+     }else{
+    return value1 / value2
+  }
+}
+
+function basicOp(operation, value1, value2) {
+  switch (operation) {
+      case '+':
+          return value1 + value2;
+      case '-':
+          return value1 - value2;
+      case '*':
+          return value1 * value2;
+      case '/':
+          return value1 / value2;
+      default:
+          return 0;
+  }
+}
+
 // Is n divisivle by x and y?
 function isDivisible(n, x, y) {
   if (n % x === 0 && n % y === 0){
