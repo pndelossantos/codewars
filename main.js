@@ -2,6 +2,17 @@
 
 //Strings
 
+//Banjo using template literal and string method charAt()
+
+function areYouPlayingBanjo(name) {
+  // Implement me
+  if(name.charAt(0) === 'R' || name.charAt(0) === 'r'){
+    return `${name} plays banjo`
+  }else {
+   return `${name} does not play banjo` 
+  }
+}
+
 //.repeat Method
 function repeatStr (n, s) {
     return s.repeat(n);
