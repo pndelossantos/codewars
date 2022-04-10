@@ -12,6 +12,13 @@ function areYouPlayingBanjo(name) {
    return `${name} does not play banjo` 
   }
 }
+// Abbreviate using .map
+
+function abbrevName(name){
+  return name.split(' ').map(word => word[0]).join('.').toUpperCase()
+      // code away
+  
+  }
 
 //.repeat Method
 function repeatStr (n, s) {
