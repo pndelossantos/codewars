@@ -20,6 +20,12 @@ function abbrevName(name){
   
   }
 
+// remove string spaces
+function noSpace(x){
+  return trimmedStr = x.split(' ').join('')
+  
+  }
+
 //.repeat Method
 function repeatStr (n, s) {
     return s.repeat(n);
