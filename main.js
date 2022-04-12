@@ -110,3 +110,14 @@ const rps = (p1, p2) => {
   }
 };
 // Other
+
+//calling prebuilt functions
+function doTurn () {
+  // Functions called
+  rollDice()
+  move()
+  combat()
+  getCoins()
+  buyHealth()
+  printStatus()
+}
