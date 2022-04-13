@@ -19,7 +19,12 @@ function abbrevName(name){
       // code away
   
   }
+//Name shuffler
 
+function nameShuffler(str){
+  //Shuffle It'
+  return str.split(' ').reverse().join(' ')
+}
 // remove string spaces
 function noSpace(x){
   return trimmedStr = x.split(' ').join('')
