@@ -25,6 +25,11 @@ function nameShuffler(str){
   //Shuffle It'
   return str.split(' ').reverse().join(' ')
 }
+
+//combining strings
+function smash (words) {
+  return words.join(' ').trim()
+};
 // remove string spaces
 function noSpace(x){
   return trimmedStr = x.split(' ').join('')
