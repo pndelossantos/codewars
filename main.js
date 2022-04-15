@@ -30,6 +30,12 @@ function nameShuffler(str){
 function smash (words) {
   return words.join(' ').trim()
 };
+
+//reversing words in a string 
+function reverse(string){
+  //your code here
+  return string.split(' ').reverse().join(' ')
+}
 // remove string spaces
 function noSpace(x){
   return trimmedStr = x.split(' ').join('')
