@@ -36,6 +36,11 @@ function reverse(string){
   //your code here
   return string.split(' ').reverse().join(' ')
 }
+// part 2
+function reverseWords(str){
+  let reversed = str.split(' ').reverse().join(' ')
+  return reversed; // reverse those words
+}
 // remove string spaces
 function noSpace(x){
   return trimmedStr = x.split(' ').join('')
