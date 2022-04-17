@@ -41,6 +41,10 @@ function reverseWords(str){
   let reversed = str.split(' ').reverse().join(' ')
   return reversed; // reverse those words
 }
+//combining strings using template literals
+function combineNames(a, b){
+  return  `${a} ${b}`
+  }
 // remove string spaces
 function noSpace(x){
   return trimmedStr = x.split(' ').join('')
