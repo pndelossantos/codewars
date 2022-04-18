@@ -25,7 +25,12 @@ function nameShuffler(str){
   //Shuffle It'
   return str.split(' ').reverse().join(' ')
 }
-
+//converting a strong to an array
+function stringToArray(string){
+  return string.split(' ')
+    // code code code
+  
+  }
 //combining strings
 function smash (words) {
   return words.join(' ').trim()
