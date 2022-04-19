@@ -35,6 +35,15 @@ function stringToArray(string){
 function smash (words) {
   return words.join(' ').trim()
 };
+//chekcing for plaindrome
+function isPalindrome(line) {
+  let str = line.toString()
+  if (str === str.split("").reverse().join("")){
+  return true;
+    }else{
+      return false
+    }
+}
 
 //reversing words in a string 
 function reverse(string){
