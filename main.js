@@ -59,6 +59,9 @@ function reverseWords(str){
 function combineNames(a, b){
   return  `${a} ${b}`
   }
+  function joinStrings(string1, string2){
+    return `${string1} ${string2}`
+ }
 // remove string spaces
 function noSpace(x){
   return trimmedStr = x.split(' ').join('')
