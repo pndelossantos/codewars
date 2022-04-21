@@ -73,6 +73,14 @@ function repeatStr (n, s) {
     return s.repeat(n);
   }
 
+  var repeatIt = function(str, n) {
+    if(typeof str == "string"){
+      return str.repeat(n)
+    }else{
+      return "Not a string"
+    }
+    }
+
 // Sum of Positives
 function positiveSum(arr){
   let newArr = arr.filter(num=>num > 0)
