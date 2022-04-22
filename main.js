@@ -31,6 +31,10 @@ function stringToArray(string){
     // code code code
   
   }
+//joining an array
+function printArray(array){
+  return array.join();
+}
 //combining strings
 function smash (words) {
   return words.join(' ').trim()
