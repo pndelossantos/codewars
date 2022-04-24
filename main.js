@@ -23,6 +23,11 @@ function abbrevName(name){
 function DNAtoRNA(dna) {
   // create a function which returns an RNA sequence from the given DNA sequence
   return dna.replace(/T/g, "U")
+}
+//summation
+var summation = function (num) {
+  // Code here
+  return num*(num + 1)/2
 } 
 //return
 function add(a,b){
