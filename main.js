@@ -193,7 +193,14 @@ function isDivisible(n, x, y) {
     return false
   }
   }
+//Arrays
+//Map
+function maps(x){
+  return x.map(num => {
+    return num * 2
+  })
 
+}
 // Rock, Paper, Scissors
 const rps = (p1, p2) => {
   if(p1 === p2){
