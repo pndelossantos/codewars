@@ -224,6 +224,10 @@ function findNeedle(haystack) {
   return `found the needle at position ${haystack.indexOf('needle')}`
 }
 // Other
+//Math Methods
+function litres(time) {
+  return Math.floor(time * .5);
+}
 
 //calling prebuilt functions
 function doTurn () {
