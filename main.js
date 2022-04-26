@@ -193,6 +193,10 @@ function isDivisible(n, x, y) {
     return false
   }
   }
+  function doubleInteger(i) {
+    // i will be an integer. Double it and return it.
+    return i * 2;
+  }
 //Arrays
 //Map
 function maps(x){
@@ -214,6 +218,11 @@ const rps = (p1, p2) => {
     return "Player 2 won!"
   }
 };
+//indexOf
+function findNeedle(haystack) {
+  // your code here
+  return `found the needle at position ${haystack.indexOf('needle')}`
+}
 // Other
 
 //calling prebuilt functions
