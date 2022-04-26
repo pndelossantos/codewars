@@ -199,8 +199,11 @@ function maps(x){
   return x.map(num => {
     return num * 2
   })
-
 }
+//Using map to invert numbers in an array
+function invert(array) {
+  return array.map(num => num * -1);
+  }
 // Rock, Paper, Scissors
 const rps = (p1, p2) => {
   if(p1 === p2){
