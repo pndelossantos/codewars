@@ -242,6 +242,16 @@ function grow(x){
     //TODO : calculate the downward rounded average of the marks array
     return Math.floor(marks.reduce((acc , cv) => acc + cv)/marks.length)
   }
+  function find_average(array){
+    if(array.length > 0){
+  return array.reduce((acc, cv) => acc + cv)/array.length
+  }else {
+    return 0
+  }
+  }
+  var find_average = (array) => {  
+    return array.length === 0 ? 0 : array.reduce((acc, ind)=> acc + ind, 0)/array.length
+  }
 //Map
 function maps(x){
   return x.map(num => {
