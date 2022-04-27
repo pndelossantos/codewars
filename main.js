@@ -197,6 +197,20 @@ function isDivisible(n, x, y) {
     // i will be an integer. Double it and return it.
     return i * 2;
   }
+//converting a string
+function fakeBin(x){
+  return x.split('').map((digit) =>{
+    if(digit < 5){
+      return 0
+    }else if(digit >= 5){
+      return 1
+    }
+  }).join('')
+  }
+  function fakeBin(x) {
+    return x.split('').map(n => n < 5 ? 0 : 1).join('');
+}
+
 //Arrays
 //Map
 function maps(x){
@@ -222,6 +236,15 @@ const rps = (p1, p2) => {
 function findNeedle(haystack) {
   // your code here
   return `found the needle at position ${haystack.indexOf('needle')}`
+}
+//Filter
+function countSheeps(arrayOfSheep) {
+  // TODO May the force be with you
+return arrayOfSheep.filter((sheep) => {
+  if(sheep === true){
+    return sheep
+  }
+}).length
 }
 // Other
 //Math Methods
