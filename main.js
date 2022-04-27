@@ -238,6 +238,10 @@ function grow(x){
   function betterThanAverage(classPoints, yourPoints) {
     return yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length; 
   }
+  function getAverage(marks){
+    //TODO : calculate the downward rounded average of the marks array
+    return Math.floor(marks.reduce((acc , cv) => acc + cv)/marks.length)
+  }
 //Map
 function maps(x){
   return x.map(num => {
