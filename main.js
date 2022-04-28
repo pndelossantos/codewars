@@ -231,6 +231,18 @@ function makeUpperCase(str) {
   // Code here
   return str.toUpperCase()
 }
+//Ternary/conditionals
+function greet (name, owner) {
+  // Add code here
+  if(name === owner){
+  return  `Hello boss`  
+  }else{
+    return `Hello guest`
+  }
+}
+function greet (name, owner) {
+  return name === owner ? 'Hello boss' :  'Hello guest';
+}
 //Arrays
 //Reduce
 function grow(x){
@@ -243,6 +255,12 @@ function grow(x){
     return classPoints.reduce((accumulator, currentValue) => {
       return accumulator + currentValue
     })/classPoints.length < yourPoints
+  }
+  function arrayPlusArray(arr1, arr2) {
+    return arr1.reduce((acc, c) => acc + c) + arr2.reduce((acc, c) => acc + c); //something went wrong
+  }
+  function arrayPlusArray(arr1, arr2) {
+    return arr1.concat(arr2).reduce((acc, cur) => acc + cur);
   }
   function betterThanAverage(classPoints, yourPoints) {
     return yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length; 
