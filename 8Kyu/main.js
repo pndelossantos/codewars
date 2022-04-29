@@ -320,6 +320,11 @@ const areaOrPerimeter = function(l , w) {
 function otherAngle(a, b) {
   return 180 - (a + b);
 }
+//refer to the example and write your first JS function
+function helloWorld(){
+  var str = "Hello World!"
+  console.log(str)
+}
 //Arrays
 //Reduce
 function grow(x){
