@@ -317,6 +317,9 @@ var totalGoals = laLigaGoals + championsLeagueGoals + copaDelReyGoals
 const areaOrPerimeter = function(l , w) {
   return l == w ? l*w : 2*(l + w)
 };
+function problem(x){
+  return typeof x === 'number' ? (x * 50) + 6 : "Error"
+}
 function otherAngle(a, b) {
   return 180 - (a + b);
 }
@@ -362,6 +365,11 @@ function main () {
   printStatus()
 }
 //Arrays
+//Includes
+function checkTheBucket(bucket){
+  //your code here
+ return bucket.includes('gold')
+}
 //Reduce
 function grow(x){
   function checkAlive(health) {
