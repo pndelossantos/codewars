@@ -12,9 +12,27 @@ function areYouPlayingBanjo(name) {
    return `${name} does not play banjo` 
   }
 }
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  // your code here
+  return Math.abs(sonYearsOld*2 - dadYearsOld)
+}
 function sayHello( name, city, state ) {
   return `Hello, ${name.join(' ')}! Welcome to ${city}, ${state}!`
 }
+function sum(array) {
+  // Use array.reduce() to calculate and return the
+  // sum of the values in array.
+  return array.reduce((acc, c) => acc + c, 0)
+}
+function sameCase(a, b){
+  if(a.toUpperCase() === a.toLowerCase() || b.toLowerCase() === b.toUpperCase()){
+     return -1
+   }else if(a === a.toLowerCase() && b === b.toLowerCase() || a === a.toUpperCase() && b === b.toUpperCase()){
+       return 1
+   }else{
+     return 0
+   }
+ }
 // Abbreviate using .map
 
 function abbrevName(name){
