@@ -696,6 +696,10 @@ function getPlanetName(id){
   
   return name;
 }
+//Match functions
+function dutyFree(normPrice, discount, hol){
+  return Math.floor(hol/(normPrice * (discount * .01)))
+  }
 function remainder(n, m){
   // Divide the larger argument by the smaller argument and return the remainder
   return n > m ? n % m : m % n
