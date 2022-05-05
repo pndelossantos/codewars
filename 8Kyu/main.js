@@ -1,5 +1,8 @@
 //Codewars 8 Kyu Fundamentals
-
+function century(year) {
+  // Finish this :
+return Math.ceil(year/100);  
+}
 //Strings
 
 //Banjo using template literal and string method charAt()
