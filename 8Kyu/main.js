@@ -109,6 +109,10 @@ function calculateTip(amount, rating) {
     }
     
   }
+  function cockroachSpeed(s) {
+    return Math.floor(s * 27.7778)
+    //Good Luck!
+  }
   function removeEveryOther(arr){
     //your code here
     return arr.filter((e, i) => i % 2 == 0 )
