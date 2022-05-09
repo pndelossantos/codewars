@@ -119,6 +119,23 @@ function calculateTip(amount, rating) {
        return 0
      }
    }
+   const arr = [6, 2, 15];
+   const sumDifference = (arr = []) => {
+      const descArr = arr.sort((a, b) => b - a);
+      if (descArr.length <= 1) {
+         return 0;
+      }
+      let total = 0;
+      for (let i = 0; i < descArr.length - 1; i++) {
+         total += (descArr[i] - descArr[i + 1]);
+      }
+      return total;
+   };
+   console.log(sumDifference(arr));
+//sum of differences
+function sumOfDifferences(arr) {
+  return arr.length > 1 ? Math.max(...arr) - Math.min(...arr) : 0;
+}
 
 //Checking for wolves
 function warnTheSheep(queue) {
