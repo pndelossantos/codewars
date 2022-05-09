@@ -158,7 +158,28 @@ function warnTheSheep(queue) {
   a + b * c,
   a * b + c,
 );
-
+//return card suit
+function defineSuit(card) {
+  // good luck
+  if(card.charAt(card.length - 1)=== '♣'){
+    return 'clubs'
+  }else if(card.charAt(card.length - 1) === '♦'){
+    return 'diamonds'
+  }else if(card.charAt(card.length - 1) === '♥'){
+    return 'hearts'         
+  }else{
+    return 'spades'
+  }
+}
+function defineSuit(card) {
+  const s = {
+    "♣": "clubs",
+    "♠": "spades",
+    "♦": "diamonds",
+    "♥": "hearts"
+  }
+  return s[card.charAt(card.length - 1)]
+}
  //Bope
  function magNumber(info){
 
