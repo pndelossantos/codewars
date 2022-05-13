@@ -196,7 +196,29 @@ function banana(){
   //select some variable to combine "banana"
   return b2+a2+n2+a2+n2+a2;
 }
-
+function getLength(arr){
+  //return length of arr
+  return arr.length
+}
+function getFirst(arr){
+  //return the first element of arr
+  return arr[0]
+}
+function getLast(arr){
+  //return the last element of arr
+  return arr[arr.length-1]
+}
+function pushElement(arr){
+  var el=1;
+  //push el to arr
+  arr.push(el)
+  return arr
+}
+function popElement(arr){
+  //pop an element from arr
+  let finArr= arr.pop()
+  return arr
+}
 //answer some questions if you finished works above
 function answer1(){
   //the answer should be "yes" or "no"
