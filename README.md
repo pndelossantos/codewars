@@ -1,6 +1,5 @@
 
-# CodeWars Challenges: <a target="_blank" href="https://www.codewars.com/users/pndelossantos"
->Visit Here</a> 
+# CodeWars Challenges: <a target="_blank" href="https://www.codewars.com/users/pndelossantos" >Visit Here</a> 
 ![Codewars profile image.](https://i.ibb.co/PjjhDwN/codewars-profile.png)
 A repository filled with codewars challenges (kata).Push 7 solutions every week.
 
