@@ -8,21 +8,11 @@
 
 //Solution
 function oddCount(n){
-    // your code here
-    // P: Takes in a whole number (n)
-    // R: A number (count) of all odd numbers below n
-    // E: ((12), 6), ((3), 1)
-    // P: 
-    // Declare empty array to push odd values into
-    let final = []
-    // loops through each 0 - n adding 1 each time
-    for(let i = 0; i < n; i++){
-    // checks to see if each number is odd
-      if(i%2 === 1){
-    // pushes odd numbers into the final array
-        final.push(i)
-      }
-    }
-    // returns how many elements are in the final array/ aka odd numbers
-    return final.length
+  // P: Takes in a whole number n
+  // R: The number of odd integers below n
+  // E: ((3), 1) ((12), 6)
+  // P: Since half of the numbers below n are odd 
+  // this divides n by 2 and rounds to get how many total odd
+  // there are
+    return Math.floor(n/2)
   }
