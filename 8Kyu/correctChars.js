@@ -18,7 +18,7 @@ function correct(string)
 // ((D0G), DOG)
 // splits string into an array and maps the correct elements based on the known errors
   return string.split('').map(e => {
-    if(e == 0){
+    if(e === '0'){
       return "O"
     }else if(e == 5){
       return "S"
