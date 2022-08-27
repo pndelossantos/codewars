@@ -9,7 +9,7 @@
 //P - get a string of varying lengths that may or may not contain #
 //R - return a string with any characters after a # removed
 //E - ('www.codewars.com#about'), 'www.codewars.com')
-//P - 
+//P -  pseudocode
 function removeUrlAnchor(url){
     // TODO: complete
 //prep get the index of any #
