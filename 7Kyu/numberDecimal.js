@@ -3,7 +3,14 @@
 
 // All inputs will be valid.
 //Solution
+//P - 
+//R
+//E
+//P
 function digits(n) {
-    // code goes here
+//P - integer 
+//R - return a number 
+//E - (digits(5), 1, "Fail!")
+//P - turns n into string and then returns the length aka number 
     return n.toString().length
   }
