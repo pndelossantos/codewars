@@ -25,4 +25,5 @@ function array(arr){
 //P = splits the string in substrings using the commas, slices everything but the commas and rejoins the sliced items with a space between or returns null if that is not possible
 function array(arr){
     return arr.split(",").slice(1,-1).join(" ") || null;
-  }
+}
+}
