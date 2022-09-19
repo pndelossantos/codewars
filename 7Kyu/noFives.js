@@ -10,9 +10,9 @@
 
 //Solution
 function dontGiveMeFive(start, end){
-    let res = [];
+    let arr = [];
     for (let i = start; i <= end; i++) {
-      if (!i.toString().includes('5')) res.push(i);
+      if (!i.toString().includes('5')) arr.push(i);
     }
-    return res.length;
+    return arr.length;
   }
