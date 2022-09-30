@@ -10,11 +10,17 @@
 
 
 //Solution
+//P -  takes in a string of varying lengths with any combination of values
+//R - returns a string depending on the first letter of the parameter names
+//E - ((Adam) Adam does not play banjo)
+//P - if statement checks to see if the character at 0 (aka the first letter of the name variable is equal to an R, r)
+// if so the first string is returned and if not the else does not play banjo string.
+
 function areYouPlayingBanjo(name) {
-    // Implement me
-    if(name.charAt(0) === 'R' || name.charAt(0) === 'r'){
-      return `${name} plays banjo`
-    }else {
-     return `${name} does not play banjo` 
-    }
+  // Implement me
+  if(name.charAt(0) === 'R' || name.charAt(0) === 'r'){
+    return `${name} plays banjo`
+  }else {
+   return `${name} does not play banjo` 
   }
+}
