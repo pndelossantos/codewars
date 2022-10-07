@@ -11,5 +11,9 @@
 // toBinary(11) /* should return 1011 */
 
 //Solutions
+// a non-negative integer 
+// return  the equivalent of that integer in binary
+// 
+// uses the toString method and the value of 2 to convert the n value into binary. the + ensures the output is returned as a number
 let toBinary = n => +n.toString(2)
 //To string accepts radiax numbers from 2 to 36. 2 is binary
