@@ -7,6 +7,11 @@
 
 
 //Solution
+//
+//
+//
+//
+
 function billboard(name, price = 30){
     return price == 0 ? name.length * 30 : name.length * price
     } 
