@@ -8,6 +8,10 @@
 // Write a code that gives out the total amount for different days(d).
 
 //Solution
+//  the number of days on vacation integer format
+//  the total cost of gas in an integer format
+//  
+// if days is greater than or equal to 7 uses the 7 day formula, if day is greater than 3 but less than 7, else use the final formula
 function rentalCarCost(d) {
     // Your solution here
     if(d >= 7){
