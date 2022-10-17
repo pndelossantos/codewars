@@ -7,6 +7,10 @@
 
 // Please leave feedback for this kata. Cheers!
 //Solution
+// an element that could be of any type
+// return a string based on the type input element
+// ((4) "Who ate the last cookie? It was Monica!")
+// create and assign the nonsense variable with the portion of the returned string that will not change and then uses a ternary to compare the type of x and return the nonsense variable and correct ending using template literals.
 function cookie(x){
     // ...
     let nonsense = "Who ate the last cookie? It was "
