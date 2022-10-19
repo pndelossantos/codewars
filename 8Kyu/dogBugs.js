@@ -8,6 +8,11 @@
 // Good luck!
 
 //Solution
+// an integer that will always be greater than or equal to 1
+// return a string based on the number of dogs 
+// 
+// creates a dog variable that contains an array with the various potential responses based on the amount of dogs
+// creates a respond variable that is assigned the appropriate array element from dogs depending on the value of number, respond is then returned
 function howManyDalmatians (number) {
     let dogs = [
       'Hardly any',
