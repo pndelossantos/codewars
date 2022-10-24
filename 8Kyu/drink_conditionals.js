@@ -14,6 +14,10 @@
 // Examples: (Input --> Output)
 
 //Solutions
+// takes in an input old which will be an integer
+// returns a string of what the input person should drink based on age
+//
+// going from smallest number to largest uses an if/else statement to compare old to the cut off ages and returns the appropriate string
 function peopleWithAgeDrink(old) {
     if(old < 14){
       return "drink toddy"
