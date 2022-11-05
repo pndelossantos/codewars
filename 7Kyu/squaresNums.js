@@ -19,6 +19,7 @@
 // is_square([]) --> None
 
 // Solution
+//PREP
 var isSquare = function(arr){
     let sqr = arr.filter(e => Math.sqrt(e) === Math.floor(Math.sqrt(e)))
     return arr == 0 ? undefined : sqr.length == arr.length
