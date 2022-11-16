@@ -9,8 +9,11 @@
 // 999 --> "999"
 
 //Solution
-
+// takes in an integer number
+// return the input as a string number
+// see above
+// uses the built in Javascript String() function to convert the num input
 function numberToString(num) {
-    //Take in num and use String function to convert
+    //Take in num and use String function convert
       return String(num);
     }
