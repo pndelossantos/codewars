@@ -8,6 +8,11 @@
 
 
 //Solution
+// takes in a string of varying lengths/formats
+// return a boolean value that describes whether or not "english" is located within the string
+// see above
+// the input sentence is converted to lower case using the eponymous method and then the includes method, which returns a boolean
+// by default is used to determine whether or not the phrase "english" is located within the input 
 function spEng(sentence){
     //write your code here
       return sentence.toLowerCase().includes('english')
