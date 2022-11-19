@@ -10,6 +10,10 @@
 // six_toast(12) == 6
 
 //Solution
+// takes in an integer number 
+// return an integer number that reflects the value of 6 - the input number but in absolute form, no negatives
+// see above
+// uses the Math.abs() "absolute" method to give the positive counterpart of 6 - num
 function sixToast(num) {
     return Math.abs(6 - num)
     }
