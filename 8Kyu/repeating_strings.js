@@ -11,6 +11,11 @@
 // 1234, 5 --> "Not a string"
 
 //Solutions
+// takes in an input str which can be of any type and n an integer number
+// is str is a string return a new string with the input repeated n times, if the str input is not a str return "Not a string"
+// see above
+// uses an if/else statement to catch non strings. If str is a string uses the built in repeat function using the input n and returns the output
+// is str is not typeof string then the Not a string message is returned
 var repeatIt = function(str, n) {
     if(typeof str == "string"){
       return str.repeat(n)
