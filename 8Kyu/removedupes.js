@@ -5,6 +5,10 @@
 
 
 //Solution
+// takes in an array of numbers
+// return the same array in the same order but with any duplicates removed
+// 
+// uses the filter method to take each element of the array and in combination with the indexOf method to determine whether or not the element has an index. 
 function distinct(a) {
     return a.filter((x, index) => a.indexOf(x) === index);
   }
