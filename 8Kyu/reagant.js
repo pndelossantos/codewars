@@ -32,6 +32,10 @@
 
 // Happy Coding ^_^
 //Solution
+// takes in an array with integers (1-8), there will be no duplicates
+// return a boolean that reflects if the formula is valid according to the materials in the array
+// see above
+// uses a set of if else statements and various logical operators to produce the appropriate boolean values
 function isValid(formula){
     if(formula.includes(1) && formula.includes(2)) {
       return false;
