@@ -11,6 +11,11 @@
 // step > 0
 // the range does not HAVE to include max (depending on the step)
 //Solution
+// takes in 3 parameters, all integer numbers. all inputs will be valid
+// return an array with min parameter and the max value as the final and filled with min etc + step until max is reached
+// see above
+// creates an empty array named final, then using a for loop that includes the min as the starting position
+// and the max as the stopping condition, and the step as the increment, each value is then pushed to the final array and the array is then returned
 function generateRange(min, max, step){
     let final = []
     for(let i = min; i <= max; i+=step){
