@@ -13,6 +13,10 @@
 // : Remember, in C# you have to cast your output value to Object type!
 
 //Solution
+// takes in an integer number in the form of points
+// return a string if points are greater than 100 and boolean false if the points are not
+// see above
+// uses the greater than or equal operator to compare points and then uses a ternary to return the correct string if so or false if not
 function playerRankUp (points) {
     return points >= 100 ? "Well done! You have advanced to the qualifying stage. Win 2 out of your next 3 games to rank up." : false
     }
